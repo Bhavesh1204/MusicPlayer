@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player">
+        <div class="song-info">
+            <img src="images/album-cover.jpg" alt="Album Cover" id="album-cover">
+            <div>
+                <h2 id="song-title">Song Title</h2>
+                <h3 id="artist-name">Artist Name</h3>
+            </div>
+        </div>
+        <audio id="audio-player" src="audio/song1.mp3"></audio>
+        <div class="controls">
+            <button id="prev-btn">⏮</button>
+            <button id="play-pause-btn">▶️</button>
+            <button id="next-btn">⏭</button>
+        </div>
+        <div class="progress-bar">
+            <input type="range" id="progress" value="0" max="100">
+        </div>
+        <div class="volume-control">
+            <input type="range" id="volume" value="100" max="100">
+        </div>
+        <div class="playlist">
+            <h3>Playlist</h3>
+            <ul id="playlist">
+                <li data-src="audio/song1.mp3" data-title="Song 1" data-artist="Artist 1">Arambha</li>
+                <li data-src="audio/song2.mp3" data-title="Song 2" data-artist="Artist 2">Illumanati</li>
+                <li data-src="audio/song3.mp3" data-title="Song 3" data-artist="Artist 3">LoveMashup</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
