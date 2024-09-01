@@ -39,7 +39,7 @@ The Music Player application is designed to provide a simple and user-friendly i
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Bhavesh1204/music-player.git
+   git clone https://github.com/Bhavesh1204/MusicPlayer.git
    cd music-player
 
 2. Open the Application:
